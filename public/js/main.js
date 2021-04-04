@@ -1,4 +1,4 @@
-alert("hey")
+// alert("hey")
 
 
 // document.querySelector("#submit").addEventListener("click", toConsole)
