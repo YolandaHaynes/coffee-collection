@@ -23,7 +23,7 @@ let db,
 
 
     app.get('/', (request, response) => {
-        db.collection('coffee').find({}).toArray()
+        db.collection('coffee').find({}).sort({coffeeBrand: 1, roastFlavor: 1}).toArray()
         .then(data=> {
             response.render('index.ejs', { info: data })
         })

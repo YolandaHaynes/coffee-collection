@@ -20,12 +20,12 @@
         <input type="text" class="roastFlavor" placeholder="roast or flavor" name="roastFlavor" required>
         <button id="submit">Submit</button>
     </form>
-    <h2 id="coffee-info">Current Coffee List</h2 class="coffee">
+    <h2 id="coffee-info">Current Coffee List</h2 class="coffee fade-in">
         <ul >
             <% for (let i = 0; i < info.length; i++) {%>
                 <li class="coffee">
-                    <span><%= info[i].coffeeBrand %></span>; 
-                    <span><%= info[i].beanType %></span>; 
+                    <span><%= info[i].coffeeBrand %></span> &#8226; 
+                    <span><%= info[i].beanType %></span> &#8226; 
                     <span><%= info[i].roastFlavor %></span>
                 </li>    
         <% } %>

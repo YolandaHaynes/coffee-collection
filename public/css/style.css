@@ -4,6 +4,7 @@ body, html {
     min-width: 400px;
     display: flex;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: column;
     background-image: url("https://imgur.com/zzSjF66.jpg");
     background-repeat: no-repeat;
@@ -59,7 +60,7 @@ input, select {
 
 input::placeholder {
     font-weight: bold;
-    color: rgb(37, 7, 7);
+    color: rgba(37, 7, 7, .8);
 }
 
 button {
@@ -73,6 +74,16 @@ button {
     padding: .5rem 1rem;
     text-align: center;
     justify-content: center;
+}
+
+ul {
+    width: 50%;
+    margin: auto auto 2rem auto;
+    list-style-type: none;
+}
+
+span {
+    font-style: italic;
 }
 
 /* #one-cup {
