@@ -28,6 +28,7 @@ header {
     display: flex;
     margin: 0;
     justify-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -77,9 +78,11 @@ button {
 }
 
 ul {
-    width: 50%;
     margin: auto auto 2rem auto;
+    width: 100%;
+    text-align: center;
     list-style-type: none;
+    margin-left: -2rem;
 }
 
 span {
@@ -128,6 +131,7 @@ span {
         display: flex;
         flex-direction: column;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -138,5 +142,6 @@ span {
         min-width: 50%;
         max-width: 75%;
     }
+
 
 }
